@@ -31,3 +31,6 @@ build:
     #     name: test: Channel starts with hash
     #     code: |
     #       bash ./tests/test_channel_starts_with_hash.sh $CORRECT_SLACK_TOKEN
+deploy:
+    steps:
+      - wercker-directory
